@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  background: radial-gradient(circle at center, #bb0679, #1b1331 60%);
+  background-size: cover;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  width: 100rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .title h1 {
+  font-size: 16rem;
+  font-weight: 800;
+  text-align: center;
+}
+.wrapper .title .info-text {
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.wrapper .question-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  gap: 1.4rem;
+}
+.wrapper .question-area h2 {
+  font-size: 4.4rem;
+}
+.wrapper .question-area .questions {
+  width: 60rem;
+  padding: 1rem 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 1rem;
+  border: none;
+  color: #bb0679;
+}
+.wrapper .question-area .answer,
+.wrapper .question-area .error {
+  min-height: 2rem;
+  font-size: 1.6rem;
+}
+.wrapper .ball {
+  position: absolute;
+  width: 5rem;
+  top: 3%;
+  left: 37%;
+  transition: top 0.3s;
+}
+.wrapper .ball:hover {
+  top: -6%;
+}/*# sourceMappingURL=style.css.map */

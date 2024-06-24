@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8 ball</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/scss/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">
+        <h1>Magic 8Ball</h1>
+        <p class="info-text">
+          Ask question, press enter and the ball will reveal the true.
+        </p>
+      </div>
+
+      <div class="question-area">
+        <h2>Ask question:</h2>
+        <input type="text" class="questions" id="questions" />
+        <p class="answer"></p>
+        <p class="error"></p>
+      </div>
+      <img src="8ball.png" class="ball" alt="image of 8ball" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
